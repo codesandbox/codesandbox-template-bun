@@ -1,0 +1,18 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "bun run http.js": {
+      "name": "bun run http.js",
+      "command": "bun run http.js",
+      "runAtStart": true
+    },
+    "react-bun-app": {
+      "name": "react-bun",
+      "command": "cd react-bun-app && bun dev",
+      "runAtStart": true
+    }
+  }
+}
